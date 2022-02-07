@@ -8,6 +8,16 @@ export class SignUpService {
   constructor() { }
 
 
+
+
+
+
+
+
+
+
+
+
   createUser(user: User){
     fetch('https://apps-lapp-server.herokuapp.com/api/auth/register', {
       method: 'POST',
@@ -19,6 +29,34 @@ export class SignUpService {
     .then(response => response.json())
     .then(data => console.log(data));
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   getUser(){
     fetch('https://jsonplaceholder.typicode.com/todos/205', {
